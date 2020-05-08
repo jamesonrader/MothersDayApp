@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4BD458D2465007900467907 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BD458C2465007900467907 /* AppDelegate.swift */; };
+		F4BD45942465007900467907 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4BD45922465007900467907 /* Main.storyboard */; };
+		F4BD45962465007B00467907 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4BD45952465007B00467907 /* Assets.xcassets */; };
+		F4BD45992465007B00467907 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4BD45972465007B00467907 /* LaunchScreen.storyboard */; };
+		F4BD45A42465007C00467907 /* MothersDay2020Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BD45A32465007C00467907 /* MothersDay2020Tests.swift */; };
+		F4BD45AF2465007C00467907 /* MothersDay2020UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BD45AE2465007C00467907 /* MothersDay2020UITests.swift */; };
+		F4BD45BE246500E500467907 /* OnboardingInvitationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BD45BC246500E500467907 /* OnboardingInvitationViewController.swift */; };
+		F4BD45BF246500E500467907 /* OnboardingInvitationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4BD45BD246500E500467907 /* OnboardingInvitationViewController.xib */; };
+		F4BD45CB246501B500467907 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4BD45C1246501B400467907 /* OpenSans-SemiBold.ttf */; };
+		F4BD45CC246501B500467907 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4BD45C2246501B400467907 /* OpenSans-Light.ttf */; };
+		F4BD45CD246501B500467907 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4BD45C3246501B400467907 /* OpenSans-Italic.ttf */; };
+		F4BD45CE246501B500467907 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4BD45C4246501B400467907 /* OpenSans-ExtraBold.ttf */; };
+		F4BD45CF246501B500467907 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4BD45C5246501B500467907 /* OpenSans-LightItalic.ttf */; };
+		F4BD45D0246501B500467907 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4BD45C6246501B500467907 /* OpenSans-Bold.ttf */; };
+		F4BD45D1246501B500467907 /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4BD45C7246501B500467907 /* OpenSans-SemiBoldItalic.ttf */; };
+		F4BD45D2246501B500467907 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4BD45C8246501B500467907 /* OpenSans-ExtraBoldItalic.ttf */; };
+		F4BD45D3246501B500467907 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4BD45C9246501B500467907 /* OpenSans-Regular.ttf */; };
+		F4BD45D4246501B500467907 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4BD45CA246501B500467907 /* OpenSans-BoldItalic.ttf */; };
+		F4BD45D9246509E900467907 /* LoveListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BD45D7246509E900467907 /* LoveListViewController.swift */; };
+		F4BD45DA246509E900467907 /* LoveListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4BD45D8246509E900467907 /* LoveListViewController.xib */; };
+		F4BD45DD246517AE00467907 /* Reasons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BD45DC246517AE00467907 /* Reasons.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4BD45A02465007C00467907 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4BD45812465007900467907 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4BD45882465007900467907;
+			remoteInfo = MothersDay2020;
+		};
+		F4BD45AB2465007C00467907 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4BD45812465007900467907 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4BD45882465007900467907;
+			remoteInfo = MothersDay2020;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4BD45892465007900467907 /* Hey Mom 2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hey Mom 2020.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4BD458C2465007900467907 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4BD45932465007900467907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4BD45952465007B00467907 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4BD45982465007B00467907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4BD459A2465007B00467907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4BD459F2465007C00467907 /* MothersDay2020Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MothersDay2020Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4BD45A32465007C00467907 /* MothersDay2020Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MothersDay2020Tests.swift; sourceTree = "<group>"; };
+		F4BD45A52465007C00467907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4BD45AA2465007C00467907 /* MothersDay2020UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MothersDay2020UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4BD45AE2465007C00467907 /* MothersDay2020UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MothersDay2020UITests.swift; sourceTree = "<group>"; };
+		F4BD45B02465007C00467907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4BD45BC246500E500467907 /* OnboardingInvitationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingInvitationViewController.swift; sourceTree = "<group>"; };
+		F4BD45BD246500E500467907 /* OnboardingInvitationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OnboardingInvitationViewController.xib; sourceTree = "<group>"; };
+		F4BD45C1246501B400467907 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		F4BD45C2246501B400467907 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		F4BD45C3246501B400467907 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		F4BD45C4246501B400467907 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		F4BD45C5246501B500467907 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		F4BD45C6246501B500467907 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		F4BD45C7246501B500467907 /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		F4BD45C8246501B500467907 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		F4BD45C9246501B500467907 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		F4BD45CA246501B500467907 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		F4BD45D7246509E900467907 /* LoveListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveListViewController.swift; sourceTree = "<group>"; };
+		F4BD45D8246509E900467907 /* LoveListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoveListViewController.xib; sourceTree = "<group>"; };
+		F4BD45DC246517AE00467907 /* Reasons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reasons.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4BD45862465007900467907 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BD459C2465007C00467907 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BD45A72465007C00467907 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4BD45802465007900467907 = {
+			isa = PBXGroup;
+			children = (
+				F4BD458B2465007900467907 /* MothersDay2020 */,
+				F4BD45A22465007C00467907 /* MothersDay2020Tests */,
+				F4BD45AD2465007C00467907 /* MothersDay2020UITests */,
+				F4BD458A2465007900467907 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4BD458A2465007900467907 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4BD45892465007900467907 /* Hey Mom 2020.app */,
+				F4BD459F2465007C00467907 /* MothersDay2020Tests.xctest */,
+				F4BD45AA2465007C00467907 /* MothersDay2020UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4BD458B2465007900467907 /* MothersDay2020 */ = {
+			isa = PBXGroup;
+			children = (
+				F4BD45C0246501B400467907 /* Fonts */,
+				F4BD45BC246500E500467907 /* OnboardingInvitationViewController.swift */,
+				F4BD45BD246500E500467907 /* OnboardingInvitationViewController.xib */,
+				F4BD458C2465007900467907 /* AppDelegate.swift */,
+				F4BD45922465007900467907 /* Main.storyboard */,
+				F4BD45952465007B00467907 /* Assets.xcassets */,
+				F4BD45972465007B00467907 /* LaunchScreen.storyboard */,
+				F4BD459A2465007B00467907 /* Info.plist */,
+				F4BD45D7246509E900467907 /* LoveListViewController.swift */,
+				F4BD45D8246509E900467907 /* LoveListViewController.xib */,
+				F4BD45DC246517AE00467907 /* Reasons.swift */,
+			);
+			path = MothersDay2020;
+			sourceTree = "<group>";
+		};
+		F4BD45A22465007C00467907 /* MothersDay2020Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F4BD45A32465007C00467907 /* MothersDay2020Tests.swift */,
+				F4BD45A52465007C00467907 /* Info.plist */,
+			);
+			path = MothersDay2020Tests;
+			sourceTree = "<group>";
+		};
+		F4BD45AD2465007C00467907 /* MothersDay2020UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4BD45AE2465007C00467907 /* MothersDay2020UITests.swift */,
+				F4BD45B02465007C00467907 /* Info.plist */,
+			);
+			path = MothersDay2020UITests;
+			sourceTree = "<group>";
+		};
+		F4BD45C0246501B400467907 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F4BD45C1246501B400467907 /* OpenSans-SemiBold.ttf */,
+				F4BD45C2246501B400467907 /* OpenSans-Light.ttf */,
+				F4BD45C3246501B400467907 /* OpenSans-Italic.ttf */,
+				F4BD45C4246501B400467907 /* OpenSans-ExtraBold.ttf */,
+				F4BD45C5246501B500467907 /* OpenSans-LightItalic.ttf */,
+				F4BD45C6246501B500467907 /* OpenSans-Bold.ttf */,
+				F4BD45C7246501B500467907 /* OpenSans-SemiBoldItalic.ttf */,
+				F4BD45C8246501B500467907 /* OpenSans-ExtraBoldItalic.ttf */,
+				F4BD45C9246501B500467907 /* OpenSans-Regular.ttf */,
+				F4BD45CA246501B500467907 /* OpenSans-BoldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4BD45882465007900467907 /* MothersDay2020 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4BD45B32465007C00467907 /* Build configuration list for PBXNativeTarget "MothersDay2020" */;
+			buildPhases = (
+				F4BD45852465007900467907 /* Sources */,
+				F4BD45862465007900467907 /* Frameworks */,
+				F4BD45872465007900467907 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MothersDay2020;
+			productName = MothersDay2020;
+			productReference = F4BD45892465007900467907 /* Hey Mom 2020.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4BD459E2465007C00467907 /* MothersDay2020Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4BD45B62465007C00467907 /* Build configuration list for PBXNativeTarget "MothersDay2020Tests" */;
+			buildPhases = (
+				F4BD459B2465007C00467907 /* Sources */,
+				F4BD459C2465007C00467907 /* Frameworks */,
+				F4BD459D2465007C00467907 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4BD45A12465007C00467907 /* PBXTargetDependency */,
+			);
+			name = MothersDay2020Tests;
+			productName = MothersDay2020Tests;
+			productReference = F4BD459F2465007C00467907 /* MothersDay2020Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4BD45A92465007C00467907 /* MothersDay2020UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4BD45B92465007C00467907 /* Build configuration list for PBXNativeTarget "MothersDay2020UITests" */;
+			buildPhases = (
+				F4BD45A62465007C00467907 /* Sources */,
+				F4BD45A72465007C00467907 /* Frameworks */,
+				F4BD45A82465007C00467907 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4BD45AC2465007C00467907 /* PBXTargetDependency */,
+			);
+			name = MothersDay2020UITests;
+			productName = MothersDay2020UITests;
+			productReference = F4BD45AA2465007C00467907 /* MothersDay2020UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4BD45812465007900467907 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Rader Enterprises";
+				TargetAttributes = {
+					F4BD45882465007900467907 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					F4BD459E2465007C00467907 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = F4BD45882465007900467907;
+					};
+					F4BD45A92465007C00467907 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = F4BD45882465007900467907;
+					};
+				};
+			};
+			buildConfigurationList = F4BD45842465007900467907 /* Build configuration list for PBXProject "MothersDay2020" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4BD45802465007900467907;
+			productRefGroup = F4BD458A2465007900467907 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4BD45882465007900467907 /* MothersDay2020 */,
+				F4BD459E2465007C00467907 /* MothersDay2020Tests */,
+				F4BD45A92465007C00467907 /* MothersDay2020UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4BD45872465007900467907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BD45CC246501B500467907 /* OpenSans-Light.ttf in Resources */,
+				F4BD45992465007B00467907 /* LaunchScreen.storyboard in Resources */,
+				F4BD45962465007B00467907 /* Assets.xcassets in Resources */,
+				F4BD45CE246501B500467907 /* OpenSans-ExtraBold.ttf in Resources */,
+				F4BD45DA246509E900467907 /* LoveListViewController.xib in Resources */,
+				F4BD45CB246501B500467907 /* OpenSans-SemiBold.ttf in Resources */,
+				F4BD45BF246500E500467907 /* OnboardingInvitationViewController.xib in Resources */,
+				F4BD45942465007900467907 /* Main.storyboard in Resources */,
+				F4BD45D2246501B500467907 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				F4BD45CD246501B500467907 /* OpenSans-Italic.ttf in Resources */,
+				F4BD45D1246501B500467907 /* OpenSans-SemiBoldItalic.ttf in Resources */,
+				F4BD45D4246501B500467907 /* OpenSans-BoldItalic.ttf in Resources */,
+				F4BD45D0246501B500467907 /* OpenSans-Bold.ttf in Resources */,
+				F4BD45D3246501B500467907 /* OpenSans-Regular.ttf in Resources */,
+				F4BD45CF246501B500467907 /* OpenSans-LightItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BD459D2465007C00467907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BD45A82465007C00467907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4BD45852465007900467907 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BD45D9246509E900467907 /* LoveListViewController.swift in Sources */,
+				F4BD45DD246517AE00467907 /* Reasons.swift in Sources */,
+				F4BD458D2465007900467907 /* AppDelegate.swift in Sources */,
+				F4BD45BE246500E500467907 /* OnboardingInvitationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BD459B2465007C00467907 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BD45A42465007C00467907 /* MothersDay2020Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BD45A62465007C00467907 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BD45AF2465007C00467907 /* MothersDay2020UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4BD45A12465007C00467907 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4BD45882465007900467907 /* MothersDay2020 */;
+			targetProxy = F4BD45A02465007C00467907 /* PBXContainerItemProxy */;
+		};
+		F4BD45AC2465007C00467907 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4BD45882465007900467907 /* MothersDay2020 */;
+			targetProxy = F4BD45AB2465007C00467907 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4BD45922465007900467907 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4BD45932465007900467907 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4BD45972465007B00467907 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4BD45982465007B00467907 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4BD45B12465007C00467907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4BD45B22465007C00467907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4BD45B42465007C00467907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G72C36Y88K;
+				INFOPLIST_FILE = MothersDay2020/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rader.MothersDay2020;
+				PRODUCT_NAME = "Hey Mom 2020";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4BD45B52465007C00467907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G72C36Y88K;
+				INFOPLIST_FILE = MothersDay2020/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rader.MothersDay2020;
+				PRODUCT_NAME = "Hey Mom 2020";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F4BD45B72465007C00467907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G72C36Y88K;
+				INFOPLIST_FILE = MothersDay2020Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rader.MothersDay2020Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MothersDay2020.app/MothersDay2020";
+			};
+			name = Debug;
+		};
+		F4BD45B82465007C00467907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G72C36Y88K;
+				INFOPLIST_FILE = MothersDay2020Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rader.MothersDay2020Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MothersDay2020.app/MothersDay2020";
+			};
+			name = Release;
+		};
+		F4BD45BA2465007C00467907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G72C36Y88K;
+				INFOPLIST_FILE = MothersDay2020UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rader.MothersDay2020UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MothersDay2020;
+			};
+			name = Debug;
+		};
+		F4BD45BB2465007C00467907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G72C36Y88K;
+				INFOPLIST_FILE = MothersDay2020UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rader.MothersDay2020UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MothersDay2020;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4BD45842465007900467907 /* Build configuration list for PBXProject "MothersDay2020" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BD45B12465007C00467907 /* Debug */,
+				F4BD45B22465007C00467907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4BD45B32465007C00467907 /* Build configuration list for PBXNativeTarget "MothersDay2020" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BD45B42465007C00467907 /* Debug */,
+				F4BD45B52465007C00467907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4BD45B62465007C00467907 /* Build configuration list for PBXNativeTarget "MothersDay2020Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BD45B72465007C00467907 /* Debug */,
+				F4BD45B82465007C00467907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4BD45B92465007C00467907 /* Build configuration list for PBXNativeTarget "MothersDay2020UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BD45BA2465007C00467907 /* Debug */,
+				F4BD45BB2465007C00467907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4BD45812465007900467907 /* Project object */;
+}

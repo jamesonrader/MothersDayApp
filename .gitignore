@@ -1,0 +1,14 @@
+# DS store
+.DS_Store
+
+# xcode
+xcuserdata
+*.xcuserstate
+project.xcworkspace
+
+# pods
+Pods/
+
+# XCode project
+CUELiveConsumer.xcodeproj/xcuserdata/
+CUELiveConsumer.xcodeproj/project.xcworkspace/
